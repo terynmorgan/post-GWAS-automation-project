@@ -1,7 +1,7 @@
 # Post-GWAS_Variant_Analysis_Automation
 Project done through INFO-B 536: Computational Methods for Bioiformatics. 
 
-**Spring 2021** <br/>
+**Fall 2022** <br/>
 **Programming Language:** R <br/>
 **Background:**<br/>
 Program aims to develop an automated pipeline to link variants from Genome Wide Association Studies (GWAS) results to associated genes, in order to create a collated folder of resources for further functional analysis. For purposes of demonstration, we will be using Crohn’s Disease (CD) as an example to illustrate pipeline functionality. CD was chosen as an example as it exhibits the problems seen in applying GWAS results, as the sufficient catalog of verified risk variant mechanisms only has value through post-GWAS analysis. 

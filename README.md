@@ -3,10 +3,10 @@ Project done through INFO-B 536: Computational Methods for Bioiformatics.
 
 **Spring 2021** <br/>
 **Programming Language:** R <br/>
-**Description:**<br/>
-- Program aims to develop an automated pipeline to link variants from Genome Wide Association Studies (GWAS) results to associated genes, in order to create a collated folder of resources for further functional analysis. For purposes of demonstration, we will be using Crohn’s Disease (CD) as an example to illustrate pipeline functionality. CD was chosen as an example as it exhibits the problems seen in applying GWAS results, as the sufficient catalog of verified risk variant mechanisms only has value through post-GWAS analysis. 
+**Background:**<br/>
+Program aims to develop an automated pipeline to link variants from Genome Wide Association Studies (GWAS) results to associated genes, in order to create a collated folder of resources for further functional analysis. For purposes of demonstration, we will be using Crohn’s Disease (CD) as an example to illustrate pipeline functionality. CD was chosen as an example as it exhibits the problems seen in applying GWAS results, as the sufficient catalog of verified risk variant mechanisms only has value through post-GWAS analysis. 
 
-<b> Description: </b>The shell script takes in a user inputted EFO ID and runs subsequent R files to curate a folder of variation features for the GWAS RsIDs associated with that EFO ID
+**Description:** The shell script takes in a user inputted EFO ID and runs subsequent R files to curate a folder of variation features for the GWAS RsIDs associated with that EFO ID
 
 <b> Files: </b><br>
 Pipeline.sh -> Linux file that runs R files in sequential order using user input <br>

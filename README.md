@@ -3,18 +3,18 @@ Project done through INFO-B 536: Computational Methods for Bioiformatics.
 
 **Fall 2022** <br/>
 **Programming Language:** R <br/>
-**Background:**<br/>
+**Background:** <br/>
 Program aims to develop an automated pipeline to link variants from Genome Wide Association Studies (GWAS) results to associated genes, in order to create a collated folder of resources for further functional analysis. For purposes of demonstration, we will be using Crohn’s Disease (CD) as an example to illustrate pipeline functionality. CD was chosen as an example as it exhibits the problems seen in applying GWAS results, as the sufficient catalog of verified risk variant mechanisms only has value through post-GWAS analysis. 
 
 **Description:** The shell script takes in a user inputted EFO ID and runs subsequent R files to curate a folder of variation features for the GWAS RsIDs associated with that EFO ID
 
-<b> Files: </b><br>
+**Files:** <br>
 Pipeline.sh -> Linux file that runs R files in sequential order using user input <br>
 Query_GWAS.R -> R file that queries GWAS API to get variant RsIDs for inputted EFO ID <br>
 Filter_Variant_IDs.R -> R file that filters resulting RsIDs from Query_GWAS.R <br>
 Query_Ensembl.R -> R file that queries Ensembl API for each RsID from Filter_Variant_IDs.R <br>
 
-<b> Execution:</b>
+**Execution:**
 1. Open Terminal
 2. Change working directory to location of files
   	cd path/to/files
@@ -34,7 +34,7 @@ Query_Ensembl.R -> R file that queries Ensembl API for each RsID from Filter_Var
     ./Pipeline.sh
 8. Once execution is complete check output in your directory 
 
-<b> Output files: </b><br>
+**Output files:** <br>
 <li>GWAS_Variant_IDs.txt<br>
 <li>GWAS_Filtered_Variant_IDs.txt<br>
 

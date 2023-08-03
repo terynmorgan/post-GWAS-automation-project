@@ -1,4 +1,4 @@
-# Post-GWAS_Variant_Analysis_Automation
+# Post-GWAS Variant Analysis Automation
 Project done through INFO-B 536: Computational Methods for Bioiformatics. 
 
 **Fall 2022** <br/>
